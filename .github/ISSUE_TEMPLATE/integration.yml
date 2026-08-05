@@ -1,0 +1,17 @@
+name: New integration
+about: Propose an AI2Human framework adapter
+title: "[Integration]: "
+labels: ["integration"]
+body:
+  - type: input
+    id: framework
+    attributes: { label: Framework }
+    validations: { required: true }
+  - type: textarea
+    id: constraint
+    attributes: { label: Human-bound constraint }
+    validations: { required: true }
+  - type: textarea
+    id: proof
+    attributes: { label: Proof and verification contract }
+    validations: { required: true }

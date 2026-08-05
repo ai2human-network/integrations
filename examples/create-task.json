@@ -1,0 +1,10 @@
+{
+  "title": "Reproduce a persistent browser error",
+  "description": "Open the controlled test URL in a normal browser and report the visible result.",
+  "category": "digital_task",
+  "funding_mode": "test_no_payout",
+  "reward_usdc": 1,
+  "deadline_hours": 24,
+  "proof_requirements": ["screenshot", "timestamp", "notes"],
+  "agent_name": "Example Agent"
+}

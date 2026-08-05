@@ -1,0 +1,1 @@
+{"name":"@ai2human/integrations-catalog","version":"0.1.0","private":true,"scripts":{"validate":"node scripts/validate-catalog.mjs"}}

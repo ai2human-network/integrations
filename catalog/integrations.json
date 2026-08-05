@@ -1,0 +1,11 @@
+{
+  "version": "ai2human-integrations/v1",
+  "integrations": [
+    {"slug":"aeon","name":"AEON","language":"javascript","maturity":"preview","source":"https://github.com/richard7463/ai2human-aeon-skill-pack","capabilities":["route","create","poll","proof_lifecycle"],"productionEvidence":"https://ai2human.io/tasks/cc380657-d06d-42d0-8f00-0c30d2d23521"},
+    {"slug":"mcp-typescript","name":"MCP TypeScript","language":"typescript","maturity":"candidate","capabilities":["create","status","proof"]},
+    {"slug":"mcp-python","name":"MCP Python","language":"python","maturity":"candidate","capabilities":["create","status","proof"]},
+    {"slug":"langchain","name":"LangChain","language":"python","maturity":"candidate","capabilities":["create","status","proof"]},
+    {"slug":"agentkit","name":"Coinbase AgentKit","language":"python","maturity":"candidate","capabilities":["create","status","proof"]},
+    {"slug":"bankr","name":"Bankr","language":"javascript","maturity":"experimental","capabilities":["route","create"]}
+  ]
+}
