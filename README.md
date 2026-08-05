@@ -34,3 +34,5 @@ Every adapter must:
 7. fail closed on authentication, funding, or schema errors.
 
 See [release requirements](docs/RELEASE-REQUIREMENTS.md) and [adapter interface](docs/ADAPTER-CONTRACT.md).
+
+Protocol-semantic changes belong in the [`protocol` AIP process](https://github.com/ai2human-network/protocol/tree/main/aips), not in an adapter-specific pull request.
