@@ -12,7 +12,7 @@ jobs:
       id-token: write
       contents: read
     steps:
-      - uses: ossf/scorecard-action@v2.4.0
+      - uses: ossf/scorecard-action@v2.4.4
         with:
           results_file: results.sarif
           results_format: sarif
