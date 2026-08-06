@@ -2,6 +2,8 @@
 
 Canonical catalog and release standards for connecting agent frameworks to AI2Human.
 
+New adapters should use the shared [`ai2human-network/sdk`](https://github.com/ai2human-network/sdk) instead of duplicating HTTP clients. The canonical API contract is maintained in [`protocol/openapi`](https://github.com/ai2human-network/protocol/tree/main/openapi).
+
 An integration is not complete when it can only create a task. It must preserve the full loop:
 
 ```text

@@ -1,5 +1,7 @@
 {
   "version": "ai2human-integrations/v1",
+  "sharedSdk": "https://github.com/ai2human-network/sdk",
+  "openApi": "https://github.com/ai2human-network/protocol/blob/main/openapi/ai2human.openapi.yaml",
   "integrations": [
     {"slug":"aeon","name":"AEON","language":"javascript","maturity":"preview","source":"https://github.com/richard7463/ai2human-aeon-skill-pack","capabilities":["route","create","poll","proof_lifecycle"],"productionEvidence":"https://ai2human.io/tasks/cc380657-d06d-42d0-8f00-0c30d2d23521"},
     {"slug":"mcp-typescript","name":"MCP TypeScript","language":"typescript","maturity":"candidate","capabilities":["create","status","proof"]},
